@@ -1,23 +1,24 @@
 {
-  "name": "test",
+  "name": "node",
   "version": "1.0.0",
-  "description": "test project",
-  "main": "app.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app"
+    "start": "nodemon app"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/1binibin/Node2.git"
   },
-  "keywords": [
-    "test"
-  ],
-  "author": "Bin",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/1binibin/Node2/issues"
   },
-  "homepage": "https://github.com/1binibin/Node2#readme"
+  "homepage": "https://github.com/1binibin/Node2#readme",
+  "dependencies": {
+    "nodemon": "^2.0.13"
+  }
 }
